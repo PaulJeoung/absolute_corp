@@ -1,6 +1,6 @@
 // Email.js 라이브러리 초기화
 (function() {
-    emailjs.init("Zap********BJ6G"); // publicKey from Email.js
+    emailjs.init("Zap0USiRnrXryBJ6G"); // publicKey from Email.js
 })();
 
 // 문서가 로드되면 이벤트 리스너 추가
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
             };
 
             // Email.js를 사용하여 메일 전송
-            emailjs.send("service_*******", "template_******", templateParams) // "service_id", "template_id", templateParams
+            emailjs.send("service_l2rfc3z", "template_vr7clmm", templateParams) // "service_id", "template_id", templateParams
                 .then(function (response) {
                     alert("메일이 성공적으로 발송되었습니다!");
                     form.reset(); // 폼 초기화
